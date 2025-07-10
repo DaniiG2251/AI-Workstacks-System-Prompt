@@ -16,14 +16,15 @@ Configuratie ondersteuning voor Wise systemen
 
 📊 Kennisbank
 
-Onderdeel	Inhoud	Status
-Database	1267 tabellen (ACTION_LOG, BCTABEL, actors, vestigingen)	✅ Volledig
+**Onderdeel	Inhoud	Status**
 
-Begrippen	165 termen (IBL, GGC, KMC, SISO, NBD Biblion)	✅ Volledig
+✅ Database	1267 tabellen (ACTION_LOG, BCTABEL, actors, vestigingen)	
 
-Tools	Jira, Mindtouch, Zendesk templates	✅ Beschikbaar
+Begrippen	165 termen (IBL, GGC, KMC, SISO, NBD Biblion)
 
-Servers	25 test omgevingen (OW TEST 01-25)	✅ Actief
+Tools	Jira, Mindtouch, Zendesk templates
+
+Servers	25 test omgevingen (OW TEST 01-25)
 
 🚀 Setup Instructies
 Stap 1: Status Check
