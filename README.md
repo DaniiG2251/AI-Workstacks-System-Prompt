@@ -8,6 +8,15 @@ Let op: deze werkt dan enkel voor je nieuwe gesprekken.
 Een intelligente AI assistent gespecialiseerd in OCLC Wise bibliotheeksystemen, database structuren en ticket behandeling.
 
 -------------------------------------------------------------------
+**🚀 Setup Instructies**
+
+Stap 1: Status Check
+status          ⚠️ Let op: Shared Data Store moet UIT staan.
+
+Stap 2: Database Initialisatie
+Setup Wise Data ⚠️ Let op: Shared Data Store moet AAN staan.
+
+-------------------------------------------------------------------
 **🎯 Doel**
 
 De Wise Assistent helpt met:
@@ -30,16 +39,6 @@ Begrippen	165 termen (IBL, GGC, KMC, SISO, NBD Biblion)
 Tools	Jira, Mindtouch, Zendesk templates
 
 ✅ 25 Test Servers (OW TEST 01-25)
-
--------------------------------------------------------------------
-**🚀 Setup Instructies**
-
-Stap 1: Status Check
-status          ⚠️ Let op: Shared Data Store moet UIT staan.
-
-Stap 2: Database Initialisatie
-Setup Wise Data ⚠️ Let op: Shared Data Store moet AAN staan.
-
 
 -------------------------------------------------------------------
 💻 Functionaliteiten
