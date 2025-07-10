@@ -29,7 +29,7 @@ Begrippen	165 termen (IBL, GGC, KMC, SISO, NBD Biblion)
 
 Tools	Jira, Mindtouch, Zendesk templates
 
-Servers	25 test omgevingen (OW TEST 01-25)
+✅ Servers	25 test omgevingen (OW TEST 01-25)
 
 -------------------------------------------------------------------
 **🚀 Setup Instructies**
