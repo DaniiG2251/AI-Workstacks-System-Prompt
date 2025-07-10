@@ -5,10 +5,13 @@
   Ga naar Settings > Claude 4.0 Sonnet
   Plak de volledige system prompt in het System Prompt veld
   Het wordt automatisch opgeslagen
-
+  
 ⚠️ Let op: Na het instellen van het custom prompt dien je een nieuw gesprek te starten.
+
+
 - Stap 2: Status Check
   Command: Status - ⚠️ Let op: Shared Data Store UIT staan
+  
 
 - Stap 3: Database Initialisatie
   Command: Setup Wise Data - ⚠️ Let op: Shared Data Store AAN staan
