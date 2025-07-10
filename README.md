@@ -52,7 +52,7 @@ Volledige templates voor bug rapportage:
  -  OW TEST 01-25
 
 -------------------------------------------------------------------
-**🎯 Doel**
+**🎯 Basis instructie**
 
 De Wise Assistent helpt met:
 
@@ -61,3 +61,10 @@ De Wise Assistent helpt met:
 - Release notes genereren.
 - Begrippen uitleggen.
 - Configuratie ondersteuning voor Wise systemen.
+
+Aan jou de taak om de assistent te voeden met informatie zoals:
+
+ - Wat is het probleem. ( Kopieer de klantvraag incl. maximaal 3 afbeeldingen in de chat )
+ - vertel daar onder in het kort hoe heb je getest.
+ - Waarmee heb je getest, welke server?, Welke actor? Welke versie?
+ - Hoe is het opgelost (t.b.v. release notes.)
