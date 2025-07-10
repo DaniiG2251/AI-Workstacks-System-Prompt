@@ -36,11 +36,11 @@ Volledige templates voor bug rapportage:
  - Versie
 
 -------------------------------------------------------------------
-**📊 Actuele kennis**
+**📊 Kennis per 10-07-2025**
 
-✅ Database	| tabellen: 1267
+✅ Database	| tabellen: 1267 
 
-✅ Begrippenlijst | Termen & Begrippen: 165
+✅ Begrippenlijst | Termen & Begrippen: 166 Laatst toegevoegde kennis: **[ BCB/RCB ]**
 
 ✅ Templates | Jira, Release Note
 
