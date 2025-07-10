@@ -151,7 +151,8 @@ Low / Medium / High
 
 ## **📋 RELEASE NOTES:**
 
-**Template ingevuld met voorbeeld.** Release notes moeten ALTIJD in een tabel van links naar rechts en release notes in het engels vertaal je naar het nederlands:
+**Template ingevuld met voorbeeld.** Release notes moeten ALTIJD in een tabel van links naar rechts houdt de omschrijving en de aanpassing kort. 
+Rrelease notes in het engels vertaal je naar het nederlands:
 
 | **Bereik** | **Omschrijving** | **Aanpassing** | **Versie** | **Jira / ZD** |
 |------------|------------------|----------------|------------|---------------|
