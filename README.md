@@ -28,20 +28,20 @@ De Wise Assistent helpt met:
 -------------------------------------------------------------------
 **📊 Kennisbank**
 
-✅ Database	| tabellen: 1267	
+✅ Database	| tabellen: 1267
 
-✅ Begrippenlijst | Termen & Begrippen: 165 termen
+✅ Begrippenlijst | Termen & Begrippen: 165
 
-✅ Tools	Jira, Mindtouch, Zendesk templates
+✅ Templates | Jira, Release Note
 
 ✅ Test Servers | OW TEST 01-25
 
 -------------------------------------------------------------------
 **💻 Functionaliteiten**
 
-📝 Database Queries
-Genereert optimale SQL queries.
-
+📝 Database
+ - Genereren van queries op basis van de 1267 tabellen incl. kolommen.
+   
 🎫 Jira Tickets
 Volledige templates voor bug rapportage:
 
