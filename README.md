@@ -40,7 +40,6 @@ status
 Stap 2: Database Initialisatie
 Setup Wise Data
 
--------------------------------------------------------------------
 **⚠️ Vereist: Shared Data Store AAN.**
 
 -------------------------------------------------------------------
