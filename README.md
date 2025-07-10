@@ -6,8 +6,7 @@
   Plak de volledige system prompt in het System Prompt veld
   Het wordt automatisch opgeslagen
 
-⚠️ Let op: Na het instellen van het custom prompt dien je een nieuw gesprek te starten om er gebruik van te kunnen maken.
-
+⚠️ Let op: Na het instellen van het custom prompt dien je een nieuw gesprek te starten.
 - Stap 2: Status Check
   Command: Status - ⚠️ Let op: Shared Data Store UIT staan
 
