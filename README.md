@@ -13,47 +13,31 @@
 
 - Stap 3: Database Initialisatie
   Command: Setup Wise Data - ⚠️ Let op: Shared Data Store AAN staan
-
--------------------------------------------------------------------
-**🧠 Wise Assistent - AI Database Expert**
-
-Een intelligente AI assistent gespecialiseerd in OCLC Wise bibliotheeksystemen, database structuren en ticket behandeling.
-
--------------------------------------------------------------------
-**🚀 Setup Instructies**
-
-Stap 1: Status Check
-status          ⚠️ Let op: Shared Data Store moet UIT staan.
-
-Stap 2: Database Initialisatie
-Setup Wise Data ⚠️ Let op: Shared Data Store moet AAN staan.
-
+  
 -------------------------------------------------------------------
 **🎯 Doel**
 
 De Wise Assistent helpt met:
 
-- Database queries op 1267 Wise tabellen
-- Jira tickets opstellen voor bugs/issues
-- Release notes genereren
-- Begrippen uitleggen uit de 165-term glossary
-- Configuratie ondersteuning voor Wise systemen
+- Database queries op basis van 1267 database tabellen.
+- Jira tickets opstellen voor bugs/issues.
+- Release notes genereren.
+- Begrippen uitleggen.
+- Configuratie ondersteuning voor Wise systemen.
 
 -------------------------------------------------------------------
 **📊 Kennisbank**
 
-**Onderdeel	Inhoud	Status**
+✅ Database	| tabellen: 1267	
 
-✅ Database	1267 tabellen (ACTION_LOG, BCTABEL, actors, vestigingen)	
+✅ Begrippenlijst | Termen & Begrippen: 165 termen
 
-Begrippen	165 termen (IBL, GGC, KMC, SISO, NBD Biblion)
+✅ Tools	Jira, Mindtouch, Zendesk templates
 
-Tools	Jira, Mindtouch, Zendesk templates
-
-✅ 25 Test Servers (OW TEST 01-25)
+✅ Test Servers | OW TEST 01-25
 
 -------------------------------------------------------------------
-💻 Functionaliteiten
+**💻 Functionaliteiten**
 
 📝 Database Queries
 Genereert optimale SQL queries.
