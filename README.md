@@ -35,12 +35,11 @@ Tools	Jira, Mindtouch, Zendesk templates
 **🚀 Setup Instructies**
 
 Stap 1: Status Check
-status
+status          ⚠️ Let op: Shared Data Store moet UIT staan.
 
 Stap 2: Database Initialisatie
-Setup Wise Data
+Setup Wise Data ⚠️ Let op: Shared Data Store moet AAN staan.
 
-**⚠️ Vereist: Shared Data Store AAN.**
 
 -------------------------------------------------------------------
 💻 Functionaliteiten
