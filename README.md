@@ -38,10 +38,10 @@ Volledige templates voor bug rapportage:
 -------------------------------------------------------------------
 **📊 Kennis per 10-07-2025**
 
-✅ Database	| tabellen: 1267 
+✅ Database	tabellen: 1267 
  - Laatst toegevoegde tabel: **[ X ]**
   
-✅ Begrippenlijst | Termen & Begrippen: 166 
+✅ Termen & Begrippen: 166 
  - Laatst toegevoegde begrip/term: **[ BCB/RCB ]**
 
 ✅ Templates
