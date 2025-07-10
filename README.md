@@ -1,6 +1,19 @@
-Deze kun je onder Settings>Claude 4.0 Sonnet in het system prompt veld plakken. (wordt automatisch opgeslagen.)
- 
-Let op: deze werkt dan enkel voor je nieuwe gesprekken.
+-------------------------------------------------------------------
+**🚀 Setup Instructies**
+
+Stap 1: System Prompt Installatie
+
+Ga naar Settings > Claude 4.0 Sonnet
+Plak de volledige system prompt in het System Prompt veld
+Het wordt automatisch opgeslagen
+
+⚠️ Let op: Na het instellen van het custom prompt dien je een nieuw gesprek te starten om er gebruik van te kunnen maken.
+
+Stap 2: Status Check
+Command: Status - ⚠️ Let op: Shared Data Store UIT staan
+
+Stap 3: Database Initialisatie
+Command: Setup Wise Data - ⚠️ Let op: Shared Data Store AAN staan
 
 -------------------------------------------------------------------
 **🧠 Wise Assistent - AI Database Expert**
