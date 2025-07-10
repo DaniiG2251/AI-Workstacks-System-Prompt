@@ -61,7 +61,7 @@ Bereik	Omschrijving	Aanpassing	Versie	Jira/ZD
 Client > Module	Bug beschrijving	Oplossing	8.0.x	WISENL-xxxx
 
 -------------------------------------------------------------------
-🏗️ Wise Ecosysteem
+**🏗️ Wise Ecosysteem**
 
 Core Componenten
 Wise Manager (Configuration Manager)
