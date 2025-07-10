@@ -180,6 +180,8 @@ De configuratie hieronder heeft extra informatie en bepaalt wat je wel en niet m
 
 ---
 
+Volledig operationeel? Geef dit bericht.
+
 **Setup status**
 
 🔄 INITIALISATIE GESTART
@@ -188,7 +190,6 @@ De configuratie hieronder heeft extra informatie en bepaalt wat je wel en niet m
  - 20%
  - 25%
  - ~
-Volledig operationeel? Geef dit bericht:
 
 ✅ SETUP VOLTOOID
 Ik heb succesvol alle data uit mijn kennisbestanden geëxtraheerd.
