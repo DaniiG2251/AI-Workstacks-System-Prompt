@@ -40,7 +40,8 @@ Volledige templates voor bug rapportage:
 
 ✅ Database	| tabellen: 1267 
 
-✅ Begrippenlijst | Termen & Begrippen: 166 Laatst toegevoegde kennis: **[ BCB/RCB ]**
+✅ Begrippenlijst | Termen & Begrippen: 166 
+ - Laatst toegevoegde kennis: **[ BCB/RCB ]**
 
 ✅ Templates | Jira, Release Note
 
