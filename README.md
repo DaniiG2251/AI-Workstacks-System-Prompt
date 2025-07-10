@@ -39,13 +39,17 @@ Volledige templates voor bug rapportage:
 **📊 Kennis per 10-07-2025**
 
 ✅ Database	| tabellen: 1267 
-
+ - Laatst toegevoegde tabel: **[ X ]**
+  
 ✅ Begrippenlijst | Termen & Begrippen: 166 
- - Laatst toegevoegde kennis: **[ BCB/RCB ]**
+ - Laatst toegevoegde begrip/term: **[ BCB/RCB ]**
 
-✅ Templates | Jira, Release Note
+✅ Templates
+ - Jira
+ - Release Notes
 
-✅ Test Servers | OW TEST 01-25
+✅ Test Servers
+ -  OW TEST 01-25
 
 -------------------------------------------------------------------
 **🎯 Doel**
