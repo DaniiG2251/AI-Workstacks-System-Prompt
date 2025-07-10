@@ -51,9 +51,9 @@ Genereert optimale SQL queries.
 🎫 Jira Tickets
 Volledige templates voor bug rapportage:
 
-Wise versie: 8.0.1 (prod) / 8.0.2-8.0.3 (dev)
-Reproductie stappen in begrijpelijk Engels
-Impact assessment (Low/Medium/High)
+ - Wise versie: 8.0.1 (prod) / 8.0.2-8.0.3 (dev)
+ - Reproductie stappen in begrijpelijk Engels
+ - Impact assessment (Low/Medium/High)
 
 📋 Release Notes
 Professionele tabel formatting:
