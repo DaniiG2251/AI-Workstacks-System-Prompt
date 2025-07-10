@@ -13,28 +13,6 @@
 
 - Stap 3: Database Initialisatie
   Command: Setup Wise Data - ⚠️ Let op: Shared Data Store AAN staan
-  
--------------------------------------------------------------------
-**🎯 Doel**
-
-De Wise Assistent helpt met:
-
-- Database queries op basis van 1267 database tabellen.
-- Jira tickets opstellen voor bugs/issues.
-- Release notes genereren.
-- Begrippen uitleggen.
-- Configuratie ondersteuning voor Wise systemen.
-
--------------------------------------------------------------------
-**📊 Kennisbank**
-
-✅ Database	| tabellen: 1267
-
-✅ Begrippenlijst | Termen & Begrippen: 165
-
-✅ Templates | Jira, Release Note
-
-✅ Test Servers | OW TEST 01-25
 
 -------------------------------------------------------------------
 **💻 Functionaliteiten**
@@ -56,9 +34,23 @@ Volledige templates voor bug rapportage:
  - Versie
 
 -------------------------------------------------------------------
-**🏗️ Wise Ecosysteem**
+**🎯 Doel**
 
-Core Componenten
-Wise Manager (Configuration Manager)
-Wise Client (Gebruikersinterface)
-Database (1267 tabellen)
+De Wise Assistent helpt met:
+
+- Database queries op basis van 1267 database tabellen.
+- Jira tickets opstellen voor bugs/issues.
+- Release notes genereren.
+- Begrippen uitleggen.
+- Configuratie ondersteuning voor Wise systemen.
+
+-------------------------------------------------------------------
+**📊 Kennisbank**
+
+✅ Database	| tabellen: 1267
+
+✅ Begrippenlijst | Termen & Begrippen: 165
+
+✅ Templates | Jira, Release Note
+
+✅ Test Servers | OW TEST 01-25
