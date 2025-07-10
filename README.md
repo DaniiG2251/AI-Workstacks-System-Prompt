@@ -43,6 +43,7 @@ Setup Wise Data
 -------------------------------------------------------------------
 **⚠️ Vereist: Shared Data Store AAN.**
 
+-------------------------------------------------------------------
 💻 Functionaliteiten
 
 📝 Database Queries
@@ -56,9 +57,10 @@ Volledige templates voor bug rapportage:
  - Impact assessment (Low/Medium/High)
 
 📋 Release Notes
-Professionele tabel formatting:
-Bereik	Omschrijving	Aanpassing	Versie	Jira/ZD
-Client > Module	Bug beschrijving	Oplossing	8.0.x	WISENL-xxxx
+ - Professionele tabel formatting:
+ - Bereik	Omschrijving	Aanpassing	Versie	Jira/ZD
+ - Bug beschrijving en	Oplossing
+ - Versie
 
 -------------------------------------------------------------------
 **🏗️ Wise Ecosysteem**
