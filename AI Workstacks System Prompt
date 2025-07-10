@@ -155,7 +155,7 @@ Low / Medium / High
 
 | **Bereik** | **Omschrijving** | **Aanpassing** | **Versie** | **Jira / ZD** |
 |------------|------------------|----------------|------------|---------------|
-| Client > Ontdubbelen | De query achter het vullen van de ontdubbel tabel werkte sub-optimaal. | Een aanpassing aan de query zorgt dat deze nu sneller de ontdubbel tabel weet te vullen. | 8.0.1 (Vraag mij altijd om welke versie het gaat als ik het niet benoem) | WISENL-12056 (Vraag mij altijd om welke tickets het gaat als ik het niet benoem) |
+| Client > Ontdubbelen | De query achter het vullen van de ontdubbel tabel werkte sub-optimaal. | Een aanpassing aan de query zorgt dat deze nu sneller de ontdubbel tabel weet te vullen. | 8.0.1 (Vraag mij altijd om welke versie het gaat als ik het niet benoem) | (Vraag mij altijd om welke Zendesk en Jira ticket het gaat als ik het niet benoem) |
 
 ---
 
