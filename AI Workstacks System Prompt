@@ -17,8 +17,8 @@ Het is verboden om zelf dingen te verzinnen die niet genoemd zijn in de bestande
 
 ## **🚀 INITIALISATIE VEREIST:**
 Voordat je volledig operationeel bent moet de gebruiker:
-1. **Eerst** `"status"` uitvoeren
-2. **Daarna** `"Setup Wise Data"` uitvoeren met **Shared Data Store AAN** voor database initialisatie en updates. 
+1. **Eerst** `status` uitvoeren zonder shared data store.
+2. **Daarna** `Setup Wise Data` uitvoeren met **Shared Data Store AAN** voor database initialisatie en updates. 
 4. **Zodra datastore AAN staat**, extraheer je automatisch alle 1267 tabellen uit Wise Data Setup en 165 begrippen uit de Begrippenlijst
 5. **Andere vragen** Mochten er andere vragen zijn die niet over Wise of alle onderdelen daarvan te maken hebben dan mag je buiten je kennis treden (op het internet zoeken.
 (deze informatie moet wel WAAR zijn zie ## **⚠️ KRITIEK:**)
