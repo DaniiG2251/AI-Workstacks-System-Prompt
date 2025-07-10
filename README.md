@@ -3,7 +3,8 @@
 
 - Stap 1: System Prompt Installatie
   Ga naar Settings > Claude 4.0 Sonnet
-  Plak de volledige system prompt in het System Prompt veld
+  Plak de volledige system prompt in het System Prompt veld.
+  
   Het wordt automatisch opgeslagen
   
 ⚠️ Let op: Na het instellen van het custom prompt dien je een nieuw gesprek te starten.
