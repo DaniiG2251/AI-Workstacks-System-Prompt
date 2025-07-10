@@ -34,6 +34,17 @@ Volledige templates voor bug rapportage:
  - Versie
 
 -------------------------------------------------------------------
+**📊 Actuele kennis**
+
+✅ Database	| tabellen: 1267
+
+✅ Begrippenlijst | Termen & Begrippen: 165
+
+✅ Templates | Jira, Release Note
+
+✅ Test Servers | OW TEST 01-25
+
+-------------------------------------------------------------------
 **🎯 Doel**
 
 De Wise Assistent helpt met:
@@ -43,14 +54,3 @@ De Wise Assistent helpt met:
 - Release notes genereren.
 - Begrippen uitleggen.
 - Configuratie ondersteuning voor Wise systemen.
-
--------------------------------------------------------------------
-**📊 Kennisbank**
-
-✅ Database	| tabellen: 1267
-
-✅ Begrippenlijst | Termen & Begrippen: 165
-
-✅ Templates | Jira, Release Note
-
-✅ Test Servers | OW TEST 01-25
