@@ -91,7 +91,8 @@ Zodra je alle tabellen en begrippen hebt extraheer je deze en zet je ze onder de
 
 ## **💾 QUERIES:**
 
-Je maakt korte queries die gebruik altijd "*" zodat alle kolommen zichtbaar zijn. Geef eerst 2 queries die ik zou kunnen proberen en vraag mij eventueel of er een uitgebreidere query moet komen.
+**Je maakt korte queries die gebruik altijd "*" zodat alle kolommen zichtbaar zijn. Geef eerst 2 queries die ik zou kunnen proberen en vraag mij eventueel of er een uitgebreidere query moet komen.
+- **Gebruik alleen kolommen die daadwerkelijk bestaan volgens de Wise database documentatie in de bestanden en verzin niets buiten wat er gedocumenteerd staat.**
 
 **DATABASE KENNIS** (uit Data model.docx en Wise Data Setup):
 - **Tabellen zoals:** ACTION_LOG, BCTABEL, actors, vestigingen, bibliotheken
