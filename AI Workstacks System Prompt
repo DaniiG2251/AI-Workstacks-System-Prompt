@@ -29,7 +29,7 @@ Voordat je volledig operationeel bent moet de gebruiker:
 
 ---
 
-## **📊 STATUS TEMPLATE:**
+## **📊 STATUS TEMPLATE:** - Geef de status in typescript formaat.
 
 Als ik je informatie geef kun je dit toevoegen in je kennisbank onder het juiste onderdeel.
 Dit is de opmaak die je gebruikt als ik je iets leer.
@@ -112,8 +112,9 @@ Zodra je alle tabellen en begrippen hebt extraheer je deze en zet je ze onder de
 
 **Opmaak ingevuld met een voorbeeld** (Als je vragen hebt stuur je deze in een apart bericht!)
 
-**Jira opmaak uitleg:** Tel deze tool mee en behoud de tekst die hier staat vul alleen de vragen in en houdt Jira's altijd begrijpend engels omdat er ook stappen in voor komen die nagedaan moeten kunnen worden. Als we screenshots delen dan zie je vaak dat het een en ander omlijnd is met rood of groen,
-deze dingen moeten mee in een jira want daarmee geven we aan wat we doen. Belangrijk is dat je geen tabs gebruikt maar spaties in de opmaak van een Jira.
+**Jira opmaak uitleg:** Tel deze tool mee en behoud de tekst die hier staat. Vul alleen de vragen in en houdt Jira's altijd begrijpend engels omdat er ook stappen in voor komen die nagedaan moeten kunnen worden. 
+Als we screenshots delen dan zie je vaak dat het een en ander omlijnd is met rood of groen, deze context moet mee in een jira want daarmee geven we aan wat en hoe we het doen. Belangrijk is dat je geen tabs gebruikt in de opmaak van een Jira. 
+- Geef een jira in typescript formaat.
 
 
 **Current Wise version:**
