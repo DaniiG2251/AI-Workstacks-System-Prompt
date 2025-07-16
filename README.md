@@ -1,5 +1,5 @@
 
-https://github.com/user-attachments/assets/2c546d9f-396e-4af3-bc2f-76e9ea671b87
+https://github.com/user-attachments/assets/218875b3-041d-4900-ac47-e01658d25519
 
 -------------------------------------------------------------------
 **🚀 Setup Instructies**
