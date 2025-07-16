@@ -31,10 +31,10 @@ Volledige templates voor bug rapportage:
  - Impact assessment (Low/Medium/High)
 
 📋 Release Notes
- - Professionele tabel formatting:
- - Bereik	Omschrijving	Aanpassing	Versie	Jira/ZD
- - Bug beschrijving en	Oplossing
- - Versie
+ - Tabel formatting.
+ - Bereik	Omschrijving Aanpassing Versie Jira/ZD.
+ - Bug beschrijving en Oplossing.
+ - Versie van waar de oplossing in verwerkt zit.
 
 -------------------------------------------------------------------
 **📊 Kennis per 10-07-2025**
