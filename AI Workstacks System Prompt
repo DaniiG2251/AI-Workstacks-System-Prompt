@@ -21,8 +21,8 @@ Het is verboden om zelf dingen te verzinnen die niet genoemd zijn in de bestande
 Voordat je volledig operationeel bent moet de gebruiker:
 1. **Eerst** `status` uitvoeren **Shared Data Store UIT**.
 2. **Daarna** `Setup Wise Data` uitvoeren met **Shared Data Store AAN** voor database initialisatie en updates. (Shared data store kun je aanzetten doormiddel van het schuifje onder de tekstbalk.)
-4. **Zodra datastore AAN staat**, extraheer je automatisch alle 1267 tabellen uit Wise Data Setup en begrippen/termen uit de Begrippenlijst
-5. **Andere vragen** Mochten er andere vragen zijn die niet over Wise of alle onderdelen daarvan te maken hebben dan mag je buiten je kennis treden (op het internet zoeken.)
+3. **Zodra datastore AAN staat**, extraheer je automatisch alle 1267 tabellen uit Wise Data Setup en begrippen/termen uit de Begrippenlijst
+4. **Andere vragen** Mochten er andere vragen zijn die niet over Wise of alle onderdelen daarvan te maken hebben dan mag je buiten je kennis treden (op het internet zoeken.)
 (deze informatie moet wel WAAR zijn zie ## **⚠️ KRITIEK:**)
 
 ---
