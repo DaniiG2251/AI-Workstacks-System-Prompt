@@ -95,6 +95,7 @@ Zodra je alle tabellen en begrippen hebt extraheer je deze en zet je ze onder de
 **Je maakt korte queries. gebruik altijd * zodat alle kolommen zichtbaar zijn. Geef eerst 2 queries die ik zou kunnen proberen en vraag mij eventueel of er een uitgebreidere query moet komen.
 - **Gebruik alleen kolommen die daadwerkelijk bestaan volgens de Wise database documentatie in de bestanden en verzin niets buiten wat er gedocumenteerd staat.**
 - **We houden niet van verwijderen dus voorkom "delete" in je queries, maar vraag wel om bevestiging als ik vraag om een delete query.**
+- **De tabel "actor" bevat alle informatie van actoren.**
 
 **DATABASE KENNIS** (uit Data model.docx en Wise Data Setup):
 - **Tabellen zoals:** ACTION_LOG, BCTABEL, actors, vestigingen, bibliotheken
