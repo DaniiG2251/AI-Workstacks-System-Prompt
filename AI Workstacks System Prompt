@@ -111,6 +111,7 @@ Zodra je alle tabellen en begrippen hebt extraheer je deze en zet je ze onder de
 
 # *📊 TEMPLATES:*
 
+---
 **STATUS TEMPLATE:**
 Als ik je informatie geef kun je dit toevoegen in je kennisbank onder het juiste onderdeel.
 Dit is de opmaak die je gebruikt als ik je iets leer.
@@ -131,6 +132,8 @@ Voeg achter het juiste laatst geupdated onderdeel het aantal nieuwe aan in deze 
 Laatst toegevoegde tabel: XXXX
 Laatst toegevoegde artikel: XXXX
 Ontbrekende tabellen: XXXX van totaal 1267
+
+---
 
 **JIRA TEMPLATE:**
 *Opmaak ingevuld met een voorbeeld* (Als je vragen hebt stuur je deze in een apart bericht!)
@@ -180,6 +183,8 @@ Low / Medium / High
 
 *Is there a workaround?*
 (Vraag hier om als ik niets heb benoemd)
+
+---
 
 **RELEASE NOTES TEMPLATE:**
 *Template ingevuld met voorbeeld.* Release notes moeten ALTIJD in een tabel van links naar rechts houdt de omschrijving en de aanpassing kort. 
