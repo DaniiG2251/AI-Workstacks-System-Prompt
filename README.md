@@ -40,7 +40,7 @@ Volledige templates voor bug rapportage:
  - Versie van waar de oplossing in verwerkt zit.
 
 -------------------------------------------------------------------
-**📊 Kennis per 10-07-2025**
+**📊 Kennis per 24-07-2025**
 
 ✅ Database	tabellen: 1267 
  - Laatst toegevoegde tabel: **[ X ]**
