@@ -81,6 +81,7 @@ FAQ - Wise Assistant
 **Basis Gebruik**
 
 **Q: Hoe start men de Wise Assistant op?**
+
 A: 
 1. Zet de **Shared Data Store** aan (schuifje onder tekstbalk)
 2. Typ `Setup Wise Data` om de database te initialiseren
@@ -88,9 +89,11 @@ A:
 4. De assistant heeft nu toegang tot alle 1267 tabellen en 165 begrippen
 
 **Q: Wat gebeurt er als de setup mislukt?**
+
 A: Er verschijnt "❌ SETUP MISLUKT - SHARED DATA STORE VEREIST". Start een nieuw gesprek en probeer opnieuw met de Shared Data Store aan.
 
 **Q: Hoe controleert men de huidige status?**
+
 A: Typ `status` voor een overzicht van geladen tabellen, begrippen en laatste updates.
 
 ---
@@ -98,17 +101,22 @@ A: Typ `status` voor een overzicht van geladen tabellen, begrippen en laatste up
 **Database & Queries**
 
 **Q: Welke tabellen kent de assistant?**
+
 A: Alle 1267 tabellen uit Wise 8.0.1, zoals ACTOR, ACTOR_ZOEK, ROL_ABONNEMENT, ACTOR_AUTH_MIDDEL, etc.
 
 **Q: Maakt de assistant alleen queries met bestaande kolommen?**
+
 A: Ja, alleen kolommen die letterlijk gedocumenteerd zijn in de kennisbestanden worden gebruikt. Kolomnamen of structuren worden nooit verzonnen.
 
 **Q: Wat als een tabel niet volledig gedocumenteerd is in de bestanden?**
+
 A: De assistant geeft aan welke tabellen ontbreken en vraagt om deze te delen vanuit het Wise data model. 
 
 **Voorbeeld:** *"Voor een accurate query op tabel FINANCIELE_MUTATIE heb ik de complete tabel structuur nodig. Deel deze tabel uit het online Wise data model."*
 
+
 **Q: Waarom zijn de queries zo kort?**
+
 A: De assistant maakt bewust korte queries met `*` zodat alle kolommen zichtbaar zijn. 
 
 **Voorbeelden:**
@@ -122,12 +130,15 @@ SELECT * FROM ROL_ABONNEMENT WHERE status = '5';
 **Workstacks Beperkingen**
 
 **Q: Heeft de assistant toegang tot het internet?**
+
 A: **NEE** - Workstacks heeft momenteel geen internettoegang. Alle informatie moet via de Shared Data Store worden gedeeld.
 
 **Q: Hoe krijgt men de meest accurate informatie?**
+
 A: Deel zoveel mogelijk relevante bestanden en tabel structuren in de Shared Data Store. De assistant werkt alleen met de beschikbare documenten.
 
 **Q: Wat als specifieke Wise documentatie ontbreekt?**
+
 A: De assistant geeft aan welke documenten/tabellen nodig zijn en vraagt om deze te delen vanuit:
 - Het online Wise data model
 - Interne Wise documentatie
@@ -140,12 +151,14 @@ A: De assistant geeft aan welke documenten/tabellen nodig zijn en vraagt om deze
 **Templates**
 
 **Q: Welke templates kan de assistant maken?**
+
 A: 
 - **Jira tickets** (in begrijpelijk Engels)
 - **Release notes** (Nederlandse tabel format)
 - **Status updates** van de kennisbank
 
 **Q: Waarom stelt de assistant soms extra vragen voor Jira templates?**
+
 A: Alleen bekende informatie wordt ingevuld. Voor ontbrekende details (server, versie, credentials) worden eerst vragen gesteld in een apart bericht.
 
 **Jira template voorbeeld:**
@@ -161,12 +174,15 @@ Replication environment: OW TEST 01
 **Shared Data Store & Performance**
 
 **Q: Waarom wordt de Shared Data Store vol?**
+
 A: Alle geüploade documenten worden opgeslagen. Dit kan de performance beïnvloeden - hoe meer data, hoe langzamer de responses.
 
 **Q: Kunnen oude bestanden verwijderd worden?**
+
 A: Nee, dat is momenteel niet mogelijk. Dit is doorgemeld aan de Workstacks developers.
 
 **Q: Hoe verwijst men naar specifieke Wise documenten?**
+
 A: Gebruik concrete namen in vragen:
 
 **Voorbeelden:**
@@ -179,15 +195,19 @@ A: Gebruik concrete namen in vragen:
 **Specifieke Wise Kennis**
 
 **Q: Welke versie van Wise gebruikt de assistant?**
+
 A: Wise 8.0.1 (laatste stabiele versie). 8.0.2 en 8.0.3 zijn in development.
 
 **Q: Welke sectoren kent de assistant?**
+
 A: Primair: Openbare bibliotheken (BIEB). Ook: schoolWise, educatWise, mediatheekWise, ticketWise.
 
 **Q: Welke servers zijn beschikbaar voor testen?**
+
 A: OW TEST 01-25 met verschillende organisaties (CultuurConnect, Probiblio, BiSC, Rotterdam, etc.)
 
 **Q: Kan de assistant vragen buiten Wise beantwoorden?**
+
 A: **NEE** - Door de beperkte internettoegang kan alleen informatie uit de Shared Data Store worden gebruikt.
 
 ---
@@ -195,18 +215,24 @@ A: **NEE** - Door de beperkte internettoegang kan alleen informatie uit de Share
 **Problemen Oplossen**
 
 **Q: Waarom geeft de assistant verkeerde database info?**
+
 A: De assistant werkt alleen met gedocumenteerde informatie uit WiseDataBrain, Setup, Data model, etc. Bij ontbrekende informatie wordt gevraagd om aanvullende documenten.
 
 **Q: Hoe voorkomt men irrelevante antwoorden?**
+
 A: Wees specifiek in vragen en deel relevante documenten:
 
 **Goed:** *"Maak een query voor ACTOR_ZOEK tabel om actoren te zoeken op naam"*
 **Slecht:** *"Zoek een actor"*
 
+
 **Q: De assistant geeft te veel uitleg, hoe wordt dit korter?**
+
 A: Standaard worden korte antwoorden gegeven. 
 
 **Voorbeeld:** *"Geef alleen de query, geen uitleg"* of *"Kort antwoord graag"*
 
+
 **Q: Wat als een antwoord onvolledig lijkt?**
+
 A: Deel meer specifieke documenten of tabel structuren. De assistant kan alleen werken met beschikbare informatie in de Shared Data Store.
