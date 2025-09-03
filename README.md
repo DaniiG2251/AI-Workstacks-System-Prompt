@@ -2,81 +2,130 @@
 https://github.com/user-attachments/assets/218875b3-041d-4900-ac47-e01658d25519
 
 -------------------------------------------------------------------
-**🚀 Setup Instructies**
 
-- Stap 1: System Prompt Installatie
-  Ga naar Settings > Claude 4.0 Sonnet
-  Plak de volledige system prompt in het System Prompt veld.
-  
-  Het wordt automatisch opgeslagen
-  
-⚠️ Let op: Na het instellen van het custom prompt dien je een nieuw gesprek te starten.
+Wise Assistant - OCLC Database & Support Specialist
 
+> **AI-powered assistant voor OCLC Wise bibliotheeksysteem met toegang tot 1267 database tabellen en 165 begrippen**
 
-- Stap 2: Status Check
-  Command: Status - ⚠️ Let op: Shared Data Store UIT staan
-  
+🚀 Quick Start
 
-- Stap 3: Database Initialisatie
-  Command: Setup Wise Data - ⚠️ Let op: Shared Data Store AAN staan
+Stap 1: System Prompt Installatie
+1. Ga naar Settings > Claude 4.0 Sonnet
+2. Plak de system prompt in het System Prompt veld
+3. Start een nieuw gesprek
 
--------------------------------------------------------------------
-**💻 Functionaliteiten**
+Stap 2: Database Initialisatie
+1. Zet Shared Data Store AAN (schuifje onder tekstbalk)
+2. Type: Setup Wise Data
+3. Wacht op: ✅ SETUP VOLTOOID
 
-📝 Database
- - Genereren van queries op basis van de 1267 tabellen incl. kolommen.
-   
-🎫 Jira Tickets
-Volledige templates voor bug rapportage:
+Stap 3: Status Verificatie
+Type: status
 
- - Wise versie: 8.0.1 (prod) / 8.0.2-8.0.3 (dev)
- - Reproductie stappen in begrijpelijk Engels
- - Impact assessment (Low/Medium/High)
+💻 Core Functionaliteiten
 
-📋 Release Notes
- - Tabel formatting.
- - Bereik	Omschrijving Aanpassing Versie Jira/ZD.
- - Bug beschrijving en Oplossing.
- - Versie van waar de oplossing in verwerkt zit.
+📝 Database Queries
+- **1267 tabellen** - Volledige Wise 8.0.1 database
+- **Veilige queries** - Alleen SELECT * statements
+- **Gevalideerde kolommen** - Enkel gedocumenteerde database structuur
 
--------------------------------------------------------------------
-**📊 Kennis per 24-07-2025**
+SELECT * FROM ACTOR WHERE actor_id = 92550;
+SELECT * FROM ROL_ABONNEMENT WHERE status = '5';
 
-✅ Database	tabellen: 1267 
- - Laatst toegevoegde tabel: **[ X ]**
-  
-✅ Termen & Begrippen: 166 
- - Laatst toegevoegde begrip/term: **[ BCB/RCB ]**
+🎫 Jira Ticket Templates
+- **Engels format** voor internationale stappen
+- **Complete bug rapportage** structuur
+- **Impact assessment** (Low/Medium/High)
+- **Automatische versie detectie** (8.0.1 prod / 8.0.2-8.0.3 dev)
 
-✅ Templates
- - Jira
- - Release Notes
+📋 Release Notes Generator
+| Bereik | Omschrijving | Aanpassing | Versie | Jira/ZD |
+|--------|--------------|------------|--------|---------|
+| Client | Bug fix | Query optimalisatie | 8.0.1 | WISE-1234 |
 
-✅ Test Servers
- -  OW TEST 01-25
+🎯 Ondersteunde Wise Componenten
 
--------------------------------------------------------------------
-**🎯 Basis instructie**
+Database Tabellen (1267)
+- ACTOR - Hoofdtabel actoren
+- ACTOR_ZOEK - Performance zoektabel
+- ACTOR_AUTH_MIDDEL - Authenticatie methoden
+- ROL_ABONNEMENT - Abonnementen beheer
+- [En 1263 andere tabellen...]
 
-De Wise Assistent helpt met:
+Sectoren & Systemen
+- **Primair:** Openbare bibliotheken (BIEB)
+- **Extended:** schoolWise, educatWise, mediatheekWise, ticketWise
+- **Landen:** Nederland, België (Vlaanderen)
+- **Netwerken:** NBC+, NBD Biblion, Wise Community
 
-- Database queries op basis van 1267 database tabellen.
-- Jira tickets opstellen voor bugs/issues.
-- Release notes genereren.
-- Begrippen uitleggen.
-- Configuratie ondersteuning voor Wise systemen.
+Test Servers (25)
+OW TEST 01-25 | CultuurConnect, Probiblio, BiSC, Rotterdam, OBGZ, etc.
+Versies: 8.0.0, 8.0.1, 8.0.2, 8.0.3 (development)
 
-Aan jou de taak om de assistent te voeden met informatie zoals:
+⚠️ Kritieke Beperkingen
 
- - Wat is het probleem. ( Kopieer de klantvraag incl. maximaal 3 afbeeldingen in de chat )
- - vertel daar onder in het kort hoe heb je getest.
- - Waarmee heb je getest, welke server?, Welke actor? Welke versie?
- - Hoe is het opgelost (t.b.v. release notes.)
+🚫 Geen Internet Toegang
+- **Workstacks beperking** - Alle data via Shared Data Store
+- **Documentatie upload vereist** - Upload relevante Wise bestanden
+- **Performance impact** - Volle datastore = langzamere responses
 
+📊 Vereiste Documenten
+✅ WiseDataBrain - Database structuur
+✅ Begrippenlijst - 165 terminologieën  
+✅ Data model - Database relaties
+✅ Setup/Wise Data Setup - Implementatie
+✅ BigParts - Wise onderdelen
 
--------------------------------------------------------------------
+🔍 Ontbrekende Tabel Structuren
+Voor [TABELNAAM] ontbreekt volledige structuur.
+Deel deze tabel uit het online Wise data model.
+Workstacks heeft geen internettoegang.
 
-FAQ - Wise Assistant
+📚 Huidige Kennisbank Status
+
+Database Tabellen: 1267/1267 ✅
+Begrippen & Termen: 165 ✅
+Templates: Jira, Release Notes ✅
+Test Servers: OW TEST 01-25 ✅
+
+🎯 Best Practices
+
+✅ Effectief Gebruik
+✅ "Maak query voor ACTOR_ZOEK om actoren te zoeken op naam"
+✅ "Kijk in WiseDataBrain voor FINANCIELE_MUTATIE structuur"  
+✅ "Genereer Jira ticket voor login probleem op OW TEST 01"
+
+❌ Vermijd
+❌ "Zoek een actor" (te vaag)
+❌ Queries zonder tabel specificatie
+❌ Vragen zonder context over Wise versie/server
+
+📋 Optimale Workflow
+1. Upload relevante documenten naar Shared Data Store
+2. Beschrijf probleem + context (server, versie, actor_id)
+3. Voeg screenshots toe (max 3)
+4. Geef testresultaten door
+5. Vraag specifieke output (query/jira/release notes)
+
+🔧 Troubleshooting
+
+Setup Problemen
+❌ SETUP MISLUKT - SHARED DATA STORE VEREIST
+→ Oplossing: Nieuw gesprek + Shared Data Store aan
+
+Performance Issues  
+Langzame responses? 
+→ Shared Data Store vol met irrelevante bestanden
+→ Momenteel geen cleanup optie beschikbaar
+
+Onvolledige Antwoorden
+→ Upload specifieke tabel structuren
+→ Verwijs naar concrete document namen
+→ Geef meer context over Wise versie/omgeving
+
+---
+
+📖 FAQ - Veelgestelde Vragen
 
 **Basis Gebruik**
 
@@ -84,9 +133,8 @@ FAQ - Wise Assistant
 
 A: 
 1. Zet de **Shared Data Store** aan (schuifje onder tekstbalk)
-2. Typ `Setup Wise Data` om de database te initialiseren
+2. Typ Setup Wise Data om de database te initialiseren
 3. Wacht tot "✅ SETUP VOLTOOID" verschijnt
-4. De assistant heeft nu toegang tot alle 1267 tabellen en 165 begrippen
 
 **Q: Wat gebeurt er als de setup mislukt?**
 
@@ -94,9 +142,7 @@ A: Er verschijnt "❌ SETUP MISLUKT - SHARED DATA STORE VEREIST". Start een nieu
 
 **Q: Hoe controleert men de huidige status?**
 
-A: Typ `status` voor een overzicht van geladen tabellen, begrippen en laatste updates.
-
----
+A: Typ status voor een overzicht van geladen tabellen, begrippen en laatste updates.
 
 **Database & Queries**
 
@@ -104,28 +150,13 @@ A: Typ `status` voor een overzicht van geladen tabellen, begrippen en laatste up
 
 A: Alle 1267 tabellen uit Wise 8.0.1, zoals ACTOR, ACTOR_ZOEK, ROL_ABONNEMENT, ACTOR_AUTH_MIDDEL, etc.
 
-**Q: Maakt de assistant alleen queries met bestaande kolommen?**
+**Q: Wat als een tabel niet volledig gedocumenteerd is?**
 
-A: Ja, alleen kolommen die letterlijk gedocumenteerd zijn in de kennisbestanden worden gebruikt. Kolomnamen of structuren worden nooit verzonnen.
-
-**Q: Wat als een tabel niet volledig gedocumenteerd is in de bestanden?**
-
-A: De assistant geeft aan welke tabellen ontbreken en vraagt om deze te delen vanuit het Wise data model. 
-
-**Voorbeeld:** *"Voor een accurate query op tabel FINANCIELE_MUTATIE heb ik de complete tabel structuur nodig. Deel deze tabel uit het online Wise data model."*
-
+A: De assistant geeft aan welke tabellen ontbreken en vraagt om deze te delen vanuit het Wise data model.
 
 **Q: Waarom zijn de queries zo kort?**
 
-A: De assistant maakt bewust korte queries met `*` zodat alle kolommen zichtbaar zijn. 
-
-**Voorbeelden:**
-```sql
-SELECT * FROM ACTOR WHERE actor_id = 92550;
-SELECT * FROM ROL_ABONNEMENT WHERE status = '5';
-```
-
----
+A: De assistant maakt bewust korte queries met * zodat alle kolommen zichtbaar zijn.
 
 **Workstacks Beperkingen**
 
@@ -135,110 +166,34 @@ A: **NEE** - Workstacks heeft momenteel geen internettoegang. Alle informatie mo
 
 **Q: Hoe krijgt men de meest accurate informatie?**
 
-A: Deel zoveel mogelijk relevante bestanden en tabel structuren in de Shared Data Store. De assistant werkt alleen met de beschikbare documenten.
+A: Deel zoveel mogelijk relevante bestanden en tabel structuren in de Shared Data Store.
 
 **Q: Wat als specifieke Wise documentatie ontbreekt?**
 
-A: De assistant geeft aan welke documenten/tabellen nodig zijn en vraagt om deze te delen vanuit:
-- Het online Wise data model
-- Interne Wise documentatie
-- Specifieke tabel definities
+A: De assistant geeft aan welke documenten/tabellen nodig zijn en vraagt om deze te delen uit het online Wise data model.
 
-**Voorbeeld:** *"Voor tabel UITLENING_HISTORIE ontbreekt de structuur. Deel deze tabel uit het Wise data model voor accurate queries."*
-
----
-
-**Templates**
+**Templates & Output**
 
 **Q: Welke templates kan de assistant maken?**
 
-A: 
-- **Jira tickets** (in begrijpelijk Engels)
-- **Release notes** (Nederlandse tabel format)
-- **Status updates** van de kennisbank
+A: Jira tickets (Engels), Release notes (Nederlandse tabel), Status updates van de kennisbank
 
 **Q: Waarom stelt de assistant soms extra vragen voor Jira templates?**
 
-A: Alleen bekende informatie wordt ingevuld. Voor ontbrekende details (server, versie, credentials) worden eerst vragen gesteld in een apart bericht.
-
-**Jira template voorbeeld:**
-```
-Current Wise version: 8.0.1
-
-When did the problem start?
-When trying to use online registration
-
-Description:
-Users cannot complete registration process
-
-Replication environment:
-OW TEST 01
-```
+A: Alleen bekende informatie wordt ingevuld. Voor ontbrekende details worden eerst vragen gesteld.
 
 ---
 
-**Shared Data Store & Performance**
+🔗 Snelle Commands
 
-**Q: Waarom wordt de Shared Data Store vol?**
-
-A: Alle geüploade documenten worden opgeslagen. Dit kan de performance beïnvloeden - hoe meer data, hoe langzamer de responses.
-
-**Q: Kunnen oude bestanden verwijderd worden?**
-
-A: Nee, dat is momenteel niet mogelijk. Dit is doorgemeld aan de Workstacks developers.
-
-**Q: Hoe verwijst men naar specifieke Wise documenten?**
-
-A: Gebruik concrete namen in vragen:
-
-**Voorbeelden:**
-- *"Welke kolommen heeft ACTOR? Kijk in **WiseDataBrain** voor de tabel structuur"*
-- *"Wat betekent IBL? Check de **Begrippenlijst** voor terminologie"*
-- *"Hoe werkt de database? Zie **Data model** voor de structuur"*
+| Command | Functie |
+|---------|---------|
+| status | Kennisbank overzicht |
+| Setup Wise Data | Database initialisatie |
+| Document naam | Specifieke focus (bijv. "WiseDataBrain") |
 
 ---
 
-**Specifieke Wise Kennis**
-
-**Q: Welke versie van Wise gebruikt de assistant?**
-
-A: Wise 8.0.1 (laatste stabiele versie). 8.0.2 en 8.0.3 zijn in development.
-
-**Q: Welke sectoren kent de assistant?**
-
-A: Primair: Openbare bibliotheken (BIEB). Ook: schoolWise, educatWise, mediatheekWise, ticketWise.
-
-**Q: Welke servers zijn beschikbaar voor testen?**
-
-A: OW TEST 01-25 met verschillende organisaties (CultuurConnect, Probiblio, BiSC, Rotterdam, etc.)
-
-**Q: Kan de assistant vragen buiten Wise beantwoorden?**
-
-A: **NEE** - Door de beperkte internettoegang kan alleen informatie uit de Shared Data Store worden gebruikt.
-
----
-
-**Problemen Oplossen**
-
-**Q: Waarom geeft de assistant verkeerde database info?**
-
-A: De assistant werkt alleen met gedocumenteerde informatie uit WiseDataBrain, Setup, Data model, etc. Bij ontbrekende informatie wordt gevraagd om aanvullende documenten.
-
-**Q: Hoe voorkomt men irrelevante antwoorden?**
-
-A: Wees specifiek in vragen en deel relevante documenten:
-
-**Goed:** *"Maak een query voor ACTOR_ZOEK tabel om actoren te zoeken op naam"*
-**Slecht:** *"Zoek een actor"*
-
-
-**Q: De assistant geeft te veel uitleg, hoe wordt dit korter?**
-
-A: Standaard worden korte antwoorden gegeven. 
-
-**Voorbeeld:** *"Geef alleen de query, geen uitleg"* of *"Kort antwoord graag"*
-
-
-**Q: Wat als een antwoord onvolledig lijkt?**
-
-A: Deel meer specifieke documenten of tabel structuren. De assistant kan alleen werken met beschikbare informatie in de Shared Data Store.
+**⚡ Laatste Update:** 24-07-2025  
+**🎯 Versie:** Wise 8.0.1 (Stabiel) | 8.0.2-8.0.3 (Development)  
+**🔧 Platform:** AI Workstacks met Shared Data Store ondersteuning
