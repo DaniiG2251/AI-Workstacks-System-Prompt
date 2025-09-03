@@ -141,9 +141,9 @@ Is there a workaround?
 (Vraag hier om als ik niets heb benoemd)
 
 **RELEASE NOTES TEMPLATE VOORBEELD:**
-| Bereik | Omschrijving | Aanpassing | Versie | Jira/ZD |
+| Bereik | Omschrijving | Aanpassing | Versie | WISEN:-1234/ZD 1234 |
 |--------|--------------|------------|--------|---------|
-| Client > Module | Korte omschrijving | Korte aanpassing | 8.0.x | Ticket# |
+| Client > Module | Korte omschrijving | Korte aanpassing | 8.0.x | WISENL-xxxx/ZD xxxx |
 
 ---
 
