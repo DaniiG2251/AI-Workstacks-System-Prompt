@@ -29,9 +29,6 @@ Type: status
 - **Veilige queries** - Alleen SELECT * statements
 - **Gevalideerde kolommen** - Enkel gedocumenteerde database structuur
 
-SELECT * FROM ACTOR WHERE actor_id = 92550;
-SELECT * FROM ROL_ABONNEMENT WHERE status = '5';
-
 🎫 Jira Ticket Templates
 - **Engels format** voor internationale stappen
 - **Complete bug rapportage** structuur
