@@ -164,9 +164,15 @@ A: Alleen bekende informatie wordt ingevuld. Voor ontbrekende details (server, v
 **Jira template voorbeeld:**
 ```
 Current Wise version: 8.0.1
-When did the problem start? When trying to use online registration
-Description: Users cannot complete registration process
-Replication environment: OW TEST 01
+
+When did the problem start?
+When trying to use online registration
+
+Description:
+Users cannot complete registration process
+
+Replication environment:
+OW TEST 01
 ```
 
 ---
