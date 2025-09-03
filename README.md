@@ -41,7 +41,7 @@ SELECT * FROM ROL_ABONNEMENT WHERE status = '5';
 📋 Release Notes Generator
 | Bereik | Omschrijving | Aanpassing | Versie | Jira/ZD |
 |--------|--------------|------------|--------|---------|
-| Client | Bug fix | Query optimalisatie | 8.0.1 | WISE-1234 |
+| Client | Bug fix | Query optimalisatie | 8.0.1 | WISENL-1234 / ZD 1234 |
 
 🎯 Ondersteunde Wise Componenten
 
