@@ -57,7 +57,7 @@ Test Servers (25)
 OW TEST 01-25 | CultuurConnect, Probiblio, BiSC, Rotterdam, OBGZ, etc.
 Versies: 8.0.0, 8.0.1, 8.0.2, 8.0.3 (development)
 
-**⚠️ Kritieke Beperkingen**
+**⚠️ Beperkingen**
 -------------------------------------------------------------------
 
 🚫 Geen Internet Toegang
