@@ -7,7 +7,6 @@ Wise Assistant - OCLC Database & Support Specialist
 
 
 **🚀 Quick Start**
-
 -------------------------------------------------------------------
 
 Stap 1: System Prompt Installatie
