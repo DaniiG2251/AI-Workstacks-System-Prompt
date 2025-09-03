@@ -5,7 +5,7 @@ https://github.com/user-attachments/assets/218875b3-041d-4900-ac47-e01658d25519
 
 Wise Assistant - OCLC Database & Support Specialist
 
-> **AI-powered assistant voor OCLC Wise bibliotheeksysteem met toegang tot 1267 database tabellen en 165 begrippen**
+-------------------------------------------------------------------
 
 🚀 Quick Start
 
