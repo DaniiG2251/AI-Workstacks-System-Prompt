@@ -5,9 +5,10 @@ https://github.com/user-attachments/assets/218875b3-041d-4900-ac47-e01658d25519
 
 Wise Assistant - OCLC Database & Support Specialist
 
--------------------------------------------------------------------
 
 🚀 Quick Start
+
+-------------------------------------------------------------------
 
 Stap 1: System Prompt Installatie
 1. Ga naar Settings > Claude 4.0 Sonnet
@@ -23,6 +24,8 @@ Stap 3: Status Verificatie
 Type: status
 
 💻 Core Functionaliteiten
+
+-------------------------------------------------------------------
 
 📝 Database Queries
 - **1267 tabellen** - Volledige Wise 8.0.1 database
@@ -42,6 +45,8 @@ Type: status
 
 🎯 Ondersteunde Wise Componenten
 
+-------------------------------------------------------------------
+
 Database Tabellen (1267)
 - ACTOR - Hoofdtabel actoren
 - ACTOR_ZOEK - Performance zoektabel
@@ -60,6 +65,8 @@ OW TEST 01-25 | CultuurConnect, Probiblio, BiSC, Rotterdam, OBGZ, etc.
 Versies: 8.0.0, 8.0.1, 8.0.2, 8.0.3 (development)
 
 ⚠️ Kritieke Beperkingen
+
+-------------------------------------------------------------------
 
 🚫 Geen Internet Toegang
 - **Workstacks beperking** - Alle kennis gaat via Shared Data Store.
@@ -86,11 +93,12 @@ Test Servers: OW TEST 01-25
 
 🎯 Best Practices
 
-Effectief Gebruik
+-------------------------------------------------------------------
 
-"Maak query voor ACTOR_ZOEK om actoren te zoeken op naam"
-"Kijk in WiseDataBrain voor FINANCIELE_MUTATIE structuur"  
-"Genereer Jira ticket voor login probleem op OW TEST 01"
+Effectief:
+- "Maak query voor ACTOR_ZOEK om actoren te zoeken op naam"
+- "Kijk in WiseDataBrain voor FINANCIELE_MUTATIE structuur"  
+- "Genereer Jira ticket voor login probleem op OW TEST 01"
 
 Vermijd
 - "Zoek een actor" (te vaag)
@@ -106,6 +114,8 @@ Vermijd
 
 🔧 Troubleshooting
 
+-------------------------------------------------------------------
+
 Setup Problemen
 ❌ SETUP MISLUKT - SHARED DATA STORE VEREIST
 → Oplossing: Nieuw gesprek + Shared Data Store aan
@@ -120,9 +130,9 @@ Onvolledige Antwoorden
 → Verwijs naar concrete document namen
 → Geef meer context over Wise versie/omgeving
 
----
-
 📖 FAQ - Veelgestelde Vragen
+
+-------------------------------------------------------------------
 
 **Basis Gebruik**
 
