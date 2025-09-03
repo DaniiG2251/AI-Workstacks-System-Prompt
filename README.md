@@ -65,16 +65,15 @@ Versies: 8.0.0, 8.0.1, 8.0.2, 8.0.3 (development)
 ⚠️ Kritieke Beperkingen
 
 🚫 Geen Internet Toegang
-- **Workstacks beperking** - Alle data via Shared Data Store
-- **Documentatie upload vereist** - Upload relevante Wise bestanden
-- **Performance impact** - Volle datastore = langzamere responses
+- **Workstacks beperking** - Alle kennis gaat via Shared Data Store.
+- **Performance impact** - Volle datastore = langzamere responses & geen accurate antwoorden
 
 📊 Vereiste Documenten
-✅ WiseDataBrain - Database structuur
-✅ Begrippenlijst - 165 terminologieën  
-✅ Data model - Database relaties
-✅ Setup/Wise Data Setup - Implementatie
-✅ BigParts - Wise onderdelen
+WiseDataBrain - Database structuur
+Begrippenlijst - 165 terminologieën  
+Data model - Database relaties
+Setup/Wise Data Setup - Implementatie
+BigParts - Wise onderdelen
 
 🔍 Ontbrekende Tabel Structuren
 Voor [TABELNAAM] ontbreekt volledige structuur.
@@ -83,22 +82,23 @@ Workstacks heeft geen internettoegang.
 
 📚 Huidige Kennisbank Status
 
-Database Tabellen: 1267/1267 ✅
-Begrippen & Termen: 165 ✅
-Templates: Jira, Release Notes ✅
-Test Servers: OW TEST 01-25 ✅
+Database Tabellen: 1267/1267 
+Begrippen & Termen: 165 
+Templates: Jira, Release Notes 
+Test Servers: OW TEST 01-25 
 
 🎯 Best Practices
 
-✅ Effectief Gebruik
-✅ "Maak query voor ACTOR_ZOEK om actoren te zoeken op naam"
-✅ "Kijk in WiseDataBrain voor FINANCIELE_MUTATIE structuur"  
-✅ "Genereer Jira ticket voor login probleem op OW TEST 01"
+Effectief Gebruik
 
-❌ Vermijd
-❌ "Zoek een actor" (te vaag)
-❌ Queries zonder tabel specificatie
-❌ Vragen zonder context over Wise versie/server
+"Maak query voor ACTOR_ZOEK om actoren te zoeken op naam"
+"Kijk in WiseDataBrain voor FINANCIELE_MUTATIE structuur"  
+"Genereer Jira ticket voor login probleem op OW TEST 01"
+
+Vermijd
+- "Zoek een actor" (te vaag)
+- Queries zonder tabel specificatie
+- Vragen zonder context over Wise versie/server
 
 📋 Optimale Workflow
 1. Upload relevante documenten naar Shared Data Store
