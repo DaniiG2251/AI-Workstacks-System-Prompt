@@ -6,7 +6,7 @@ https://github.com/user-attachments/assets/218875b3-041d-4900-ac47-e01658d25519
 Wise Assistant - OCLC Database & Support Specialist
 
 
-🚀 Quick Start
+**🚀 Quick Start**
 
 -------------------------------------------------------------------
 
@@ -23,8 +23,7 @@ Stap 2: Database Initialisatie
 Stap 3: Status Verificatie
 Type: status
 
-💻 Core Functionaliteiten
-
+💻 **Core Functionaliteiten**
 -------------------------------------------------------------------
 
 📝 Database Queries
@@ -43,8 +42,7 @@ Type: status
 |--------|--------------|------------|--------|---------|
 | Client | Bug fix | Query optimalisatie | 8.0.1 | WISENL-1234 / ZD 1234 |
 
-🎯 Ondersteunde Wise Componenten
-
+**🎯 Ondersteunde Wise Componenten**
 -------------------------------------------------------------------
 
 Database Tabellen (1267)
@@ -64,8 +62,7 @@ Test Servers (25)
 OW TEST 01-25 | CultuurConnect, Probiblio, BiSC, Rotterdam, OBGZ, etc.
 Versies: 8.0.0, 8.0.1, 8.0.2, 8.0.3 (development)
 
-⚠️ Kritieke Beperkingen
-
+**⚠️ Kritieke Beperkingen**
 -------------------------------------------------------------------
 
 🚫 Geen Internet Toegang
@@ -91,8 +88,7 @@ Begrippen & Termen: 165
 Templates: Jira, Release Notes 
 Test Servers: OW TEST 01-25 
 
-🎯 Best Practices
-
+**🎯 Best Practices**
 -------------------------------------------------------------------
 
 Effectief:
@@ -112,8 +108,7 @@ Vermijd
 4. Geef testresultaten door
 5. Vraag specifieke output (query/jira/release notes)
 
-🔧 Troubleshooting
-
+**🔧 Troubleshooting**
 -------------------------------------------------------------------
 
 Setup Problemen
@@ -130,8 +125,7 @@ Onvolledige Antwoorden
 → Verwijs naar concrete document namen
 → Geef meer context over Wise versie/omgeving
 
-📖 FAQ - Veelgestelde Vragen
-
+**📖 FAQ - Veelgestelde Vragen**
 -------------------------------------------------------------------
 
 **Basis Gebruik**
