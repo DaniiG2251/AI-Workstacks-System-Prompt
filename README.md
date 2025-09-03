@@ -194,6 +194,6 @@ A: Alleen bekende informatie wordt ingevuld. Voor ontbrekende details worden eer
 
 ---
 
-**⚡ Laatste Update:** 24-07-2025  
+**⚡ Laatste Update:** 03-09-2025  
 **🎯 Versie:** Wise 8.0.1 (Stabiel) | 8.0.2-8.0.3 (Development)  
 **🔧 Platform:** AI Workstacks met Shared Data Store ondersteuning
