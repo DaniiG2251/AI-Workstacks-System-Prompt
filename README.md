@@ -1,12 +1,8 @@
 
 https://github.com/user-attachments/assets/218875b3-041d-4900-ac47-e01658d25519
 
--------------------------------------------------------------------
 
-Wise Assistant - OCLC Database & Support Specialist
-
-
-**🚀 Quick Start**
+**🚀 Initialisatie**
 -------------------------------------------------------------------
 
 Stap 1: System Prompt Installatie
@@ -22,7 +18,7 @@ Stap 2: Database Initialisatie
 Stap 3: Status Verificatie
 Type: status
 
-💻 **Core Functionaliteiten**
+💻 **Basis Functionaliteiten**
 -------------------------------------------------------------------
 
 📝 Database Queries
