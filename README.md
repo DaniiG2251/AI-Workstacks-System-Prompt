@@ -41,10 +41,10 @@ Type: status
 -------------------------------------------------------------------
 
 Database Tabellen (1267)
-- ACTOR - Hoofdtabel actoren
-- ACTOR_ZOEK - Performance zoektabel
-- ACTOR_AUTH_MIDDEL - Authenticatie methoden
-- ROL_ABONNEMENT - Abonnementen beheer
+- ACTOR
+- ACTOR_ZOEK
+- ACTOR_AUTH_MIDDEL
+- ROL_ABONNEMENT
 - [En 1263 andere tabellen...]
 
 Sectoren & Systemen
