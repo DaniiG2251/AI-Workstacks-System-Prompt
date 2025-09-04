@@ -109,7 +109,7 @@ Optimale Workflow
 
 Setup Problemen
 SETUP MISLUKT - SHARED DATA STORE VEREIST
-→ Oplossing: Nieuw gesprek + Shared Data Store aan
+→ Oplossing: Nieuw gesprek + status en dan Shared Data Store aan
 
 Performance Issues  
 Langzame responses? 
@@ -159,15 +159,15 @@ A: De assistant maakt bewust korte queries met * zodat alle kolommen zichtbaar z
 
 **Q: Heeft de assistant toegang tot het internet?**
 
-A: **NEE** - Workstacks heeft momenteel geen internettoegang. Alle informatie moet via de Shared Data Store worden gedeeld.
+A: **NEE** - Workstacks heeft momenteel geen internettoegang. Alle informatie gaat nu via de Shared Data Store.
 
 **Q: Hoe krijgt men de meest accurate informatie?**
 
-A: Deel zoveel mogelijk relevante bestanden en tabel structuren in de Shared Data Store.
+A: Deel zoveel mogelijk relevante bestanden en tabel structuren in je vraag aan de assistent.
 
 **Q: Wat als specifieke Wise documentatie ontbreekt?**
 
-A: De assistant geeft aan welke documenten/tabellen nodig zijn en vraagt om deze te delen uit het online Wise data model.
+A: De assistant geeft aan welke documenten/tabellen nodig zijn en vraagt je om deze te delen uit het online Wise data model. (kopieer het hele tabel vanaf de titel tot "Back to index" 
 
 **Templates & Output**
 
