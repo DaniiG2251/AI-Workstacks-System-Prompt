@@ -2,7 +2,7 @@
 https://github.com/user-attachments/assets/218875b3-041d-4900-ac47-e01658d25519
 
 
-**🚀 Initialisatie**
+**Initialisatie**
 -------------------------------------------------------------------
 
 Stap 1: System Prompt Installatie
@@ -19,7 +19,7 @@ Stap 2: Database Initialisatie
 Stap 3: Status Verificatie
 Type: status
 
-💻 **Basis Functionaliteiten**
+**Basis Functionaliteiten**
 -------------------------------------------------------------------
 
 📝 Database Queries
@@ -27,18 +27,18 @@ Type: status
 - **Veilige queries** - Alleen SELECT * statements
 - **Gevalideerde kolommen** - Enkel gedocumenteerde database structuur
 
-🎫 Jira Ticket Templates
+Jira Ticket Templates
 - **Engels format** voor internationale stappen
 - **Complete bug rapportage** structuur
 - **Impact assessment** (Low/Medium/High)
 - **Automatische versie detectie** (8.0.1 prod / 8.0.2-8.0.3 dev)
 
-📋 Release Notes Generator
+Release Notes Generator
 | Bereik | Omschrijving | Aanpassing | Versie | Jira/ZD |
 |--------|--------------|------------|--------|---------|
 | Client | Bug | Query optimalisatie | 8.0.1 | WISENL-1234 / ZD 1234 |
 
-**🎯 Ondersteunde Wise Componenten**
+**Ondersteunde Wise Componenten**
 -------------------------------------------------------------------
 
 Database Tabellen (1267)
@@ -58,33 +58,33 @@ Test Servers (25)
 OW TEST 01-25 | CultuurConnect, Probiblio, BiSC, Rotterdam, OBGZ, etc.
 Versies: 8.0.0, 8.0.1, 8.0.2, 8.0.3 (development)
 
-**⚠️ Beperkingen**
+**Beperkingen**
 -------------------------------------------------------------------
 
-🚫 Geen Internet Toegang
+Geen Internet Toegang
 - **Workstacks beperking** - Alle kennis gaat via Shared Data Store.
 - **Performance impact** - Volle datastore = langzamere responses & geen accurate antwoorden
 
-📊 Vereiste Documenten
+Vereiste Documenten
 WiseDataBrain - Database structuur
 Begrippenlijst - 165 terminologieën  
 Data model - Database relaties
 Setup/Wise Data Setup - Implementatie
 BigParts - Wise onderdelen
 
-🔍 Ontbrekende Tabel Structuren
+Ontbrekende Tabel Structuren
 Voor [TABELNAAM] ontbreekt volledige structuur.
 Deel deze tabel uit het online Wise data model.
 Workstacks heeft geen internettoegang.
 
-📚 Huidige Kennisbank Status
+Huidige Kennisbank Status
 
 Database Tabellen: 1267/1267 
 Begrippen & Termen: 165 
 Templates: Jira, Release Notes 
 Test Servers: OW TEST 01-25 
 
-**🎯 Best Practices**
+**Best Practices**
 -------------------------------------------------------------------
 
 Effectief:
@@ -97,7 +97,7 @@ Vermijd
 - Queries zonder tabel specificatie
 - Vragen zonder context over Wise versie/server
 
-📋 Optimale Workflow
+Optimale Workflow
 1. Upload relevante documenten naar Shared Data Store
 2. Beschrijf probleem + context (server, versie, actor_id)
 3. Voeg screenshots toe (max 3)
@@ -108,7 +108,7 @@ Vermijd
 -------------------------------------------------------------------
 
 Setup Problemen
-❌ SETUP MISLUKT - SHARED DATA STORE VEREIST
+SETUP MISLUKT - SHARED DATA STORE VEREIST
 → Oplossing: Nieuw gesprek + Shared Data Store aan
 
 Performance Issues  
@@ -121,7 +121,7 @@ Onvolledige Antwoorden
 → Verwijs naar concrete document namen
 → Geef meer context over Wise versie/omgeving
 
-**📖 FAQ - Veelgestelde Vragen**
+**FAQ - Veelgestelde Vragen**
 -------------------------------------------------------------------
 
 **Basis Gebruik**
@@ -131,11 +131,11 @@ Onvolledige Antwoorden
 A: 
 1. Zet de **Shared Data Store** aan (schuifje onder tekstbalk)
 2. Typ Setup Wise Data om de database te initialiseren
-3. Wacht tot "✅ SETUP VOLTOOID" verschijnt
+3. Wacht tot "SETUP VOLTOOID" verschijnt
 
 **Q: Wat gebeurt er als de setup mislukt?**
 
-A: Er verschijnt "❌ SETUP MISLUKT - SHARED DATA STORE VEREIST". Start een nieuw gesprek en probeer opnieuw met de Shared Data Store aan.
+A: Er verschijnt "SETUP MISLUKT - SHARED DATA STORE VEREIST". Start een nieuw gesprek en probeer opnieuw met de Shared Data Store aan.
 
 **Q: Hoe controleert men de huidige status?**
 
@@ -181,7 +181,7 @@ A: Alleen bekende informatie wordt ingevuld. Voor ontbrekende details worden eer
 
 ---
 
-🔗 Snelle Commands
+Snelle Commands
 
 | Command | Functie |
 |---------|---------|
@@ -191,6 +191,6 @@ A: Alleen bekende informatie wordt ingevuld. Voor ontbrekende details worden eer
 
 ---
 
-**⚡ Laatste Update:** 03-09-2025  
-**🎯 Versie:** Wise 8.0.1 (Stabiel) | 8.0.2-8.0.3 (Development)  
-**🔧 Platform:** AI Workstacks met Shared Data Store ondersteuning
+**Laatste Update:** 03-09-2025  
+**Versie:** Wise 8.0.1 (Stabiel) | 8.0.2-8.0.3 (Development)  
+**Platform:** AI Workstacks met Shared Data Store ondersteuning
