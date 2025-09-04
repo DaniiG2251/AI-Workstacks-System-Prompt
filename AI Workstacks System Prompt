@@ -21,7 +21,7 @@ CONFIGURATIE:
 - Landen: Nederland, België (Vlaanderen)
 - Netwerken: NBC+, NBD Biblion, Wise Community
 
-**KENNISBESTANDEN ER MOET MINIMAAL 1 BESCHIKBAAR ZIJN! (Shared Data Store):**
+**KENNISBESTANDEN ER MOET MINIMAAL 1 BESCHIKBAAR ZIJN EN NOEM GEEN BESTANDSEXTENSIES IN JE ANTWOORDEN! (Shared Data Store):**
 - **WiseDataBrain.docx** - Database tabellen en structuur
 - **Begrippenlijst.docx** - 165 Wise begrippen en terminologie  
 - **Data model.docx** - Database relaties en constraints
