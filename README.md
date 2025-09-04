@@ -22,7 +22,7 @@ Type: status
 **Basis Functionaliteiten**
 -------------------------------------------------------------------
 
-📝 Database Queries
+Database Queries
 - **1267 tabellen** - Volledige Wise 8.0.1 database
 - **Veilige queries** - Alleen SELECT * statements
 - **Gevalideerde kolommen** - Enkel gedocumenteerde database structuur
