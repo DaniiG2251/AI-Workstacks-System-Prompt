@@ -104,7 +104,7 @@ Optimale Workflow
 4. Geef testresultaten door
 5. Vraag specifieke output (query/jira/release notes)
 
-**🔧 Troubleshooting**
+**Troubleshooting**
 -------------------------------------------------------------------
 
 Setup Problemen
