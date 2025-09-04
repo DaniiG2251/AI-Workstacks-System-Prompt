@@ -11,7 +11,7 @@ Stap 1: System Prompt Installatie
 3. Start een nieuw gesprek
 
 Stap 2: Database Initialisatie
-1.Type status
+1. Type status
 2. Zet Shared Data Store AAN (schuifje onder tekstbalk)
 3. Type: Setup Wise Data
 4. Wacht op: ✅ SETUP VOLTOOID
