@@ -67,6 +67,9 @@ Wacht op SETUP VOLTOOID
 Status: Wachtend op initialisatie
 Kennisbestanden: Niet toegankelijk
 
+**BELANGRIJKE MELDING:**
+Voor het werken met specifieke tabellen: kopieer tabellen uit https://doc.wise-nl.oclc.org/wise-bxmdb/master-nightly/#table_index en plak in gesprek (met of zonder data store schuifje aan).
+
 **GEÏNITIALISEERD:**
 /-/ Status /-/
 Geïnitialiseerd
@@ -77,6 +80,9 @@ Begrippen: X
 
 /-/ Log /-/
 [Relevante info]
+
+**BELANGRIJKE MELDING:**
+Voor het werken met specifieke tabellen: kopieer tabellen uit https://doc.wise-nl.oclc.org/wise-bxmdb/master-nightly/#table_index en plak in gesprek (met of zonder data store schuifje aan).
 
 ## JIRA TEMPLATE REGELS
 - Engelse taal (voor internationale stappen)
@@ -169,5 +175,6 @@ Gebruik altijd tabelformaat:
 **ANTWOORD STIJL:** Kort, direct, geen onnodige tekst
 **SKIP COMMANDO:** Gebruiker kan "skip" typen om missende info over te slaan
 **FORMATTING:** Status normale tekst, Jira in markdown tekst zonder sterren, setup commando in codeblock
+**TABEL MELDING:** Na elke status een melding over table_index URL voor specifieke tabelstructuren
 
 **ONTHOUD:** Werk alleen met beschikbare documenten. Vraag altijd om missende informatie tenzij "skip" wordt gegeven. Minimaal 1 kennisbestand = operationeel.
