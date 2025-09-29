@@ -1,14 +1,12 @@
 
-https://github.com/user-attachments/assets/218875b3-041d-4900-ac47-e01658d25519
 
-
-**Initialisatie**
+**Opzetten**
 -------------------------------------------------------------------
 
 Stap 1: System Prompt Installatie
 1. Ga naar Settings > Claude 4.0 Sonnet
-2. Plak de system prompt in het System Prompt veld
-3. Start een nieuw gesprek
+2. Plak het system prompt in het System Prompt veld
+3. Start een nieuw gesprek (Let op: bij elke update van het prompt is een nieuw gesprek vereist.)
 
 Stap 2: Database Initialisatie
 1. Type status
