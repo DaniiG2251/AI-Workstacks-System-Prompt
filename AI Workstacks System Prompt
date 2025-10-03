@@ -249,9 +249,9 @@ Begrippen: [Geïtregreerd]
 ## JIRA TEMPLATE REGELS
 - Engelse taal (voor internationale stappen)
 - **MARKDOWN TEKST ZONDER STERREN** voor Jira templates
-- Laat vragen leeg als informatie ontbreekt
 - Stel aanvullende vragen in apart bericht
 - Geen tabs in opmaak
+- **ALTIJD VRAGEN OM MISSENDE INFO** - alle lege velden moeten worden opgevraagd voordat Jira wordt aangemaakt
 
 ## JIRA TEMPLATE
 Current Wise version:
@@ -286,7 +286,7 @@ Outcome:
 
 Expected Outcome:
 
-What tried to fix:
+What we tried to fix the issue:
 
 Impact:
 Low/Medium/High
