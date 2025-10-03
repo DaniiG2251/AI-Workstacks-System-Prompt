@@ -1,194 +1,94 @@
-
-
-**Opzetten**
+-------------------------------------------------------------------
+**Wat kan de assistant?**
 -------------------------------------------------------------------
 
-Stap 1: System Prompt Installatie
-1. Ga naar Settings > Claude 4.0 Sonnet
-2. Plak het system prompt in het System Prompt veld
-3. Start een nieuw gesprek (Let op: bij elke update van het prompt is een nieuw gesprek vereist.)
+**Database Help**
+- Zoeken in alle Wise database tabellen
+- Veilige zoekopdrachten maken
+- Database structuur uitleggen
+- Tabellen en verbindingen vinden
 
-Stap 2: Database Initialisatie
-1. Type status
-2. Zet Shared Data Store AAN (schuifje onder tekstbalk)
-3. Type: Setup Wise Data
-4. Wacht op: SETUP VOLTOOID
+**Wise Woorden Uitleggen**
+- 165 Wise begrippen in Nederlands en Engels
+- Bijvoorbeeld: Actor = klant, Vestiging = bibliotheek locatie
+- Uitleg van alle Wise termen
 
-Stap 3: Status Verificatie
-Type: status
+**Documenten Maken**
+- Jira tickets voor problemen (in het Engels)
+- Release notes in tabelformaat
+- Status rapporten
+- E-mails naar klanten
 
-**Basis Functionaliteiten**
+**Herkennen van Content**
+- Database tabellen automatisch lezen
+- Zendesk tickets samenvatten
+- Help artikelen verwerken
+
+**Wise Kennis**
+- Bibliotheken, scholen, mediatheken
+- Verschillende systemen en netwerken
+- Protocols en standaarden
+
+**Wat kan de assistant NIET?**
 -------------------------------------------------------------------
 
-Database Queries
-- **1267 tabellen** - Volledige Wise 8.0.1 database
-- **Veilige queries** - Alleen SELECT * statements
-- **Gevalideerde kolommen** - Enkel gedocumenteerde database structuur
+**Geen Internet**
+- Kan niet online zoeken
+- Heeft alleen bestanden die je deelt
+- Kan geen websites bezoeken
+- Verwijst wel naar online hulp
 
-Jira Ticket Templates
-- **Engels format** voor internationale stappen
-- **Complete bug rapportage** structuur
-- **Impact assessment** (Low/Medium/High)
-- **Automatische versie detectie** (8.0.2 prod / 8.0.3-8.0.4 dev)
+**Chat Problemen**
+- Maximaal tabellen met dezelfde naam tegelijk
+- Te veel tabellen = chat crasht
+- Bij lange gesprekken: even wachten
+- Soms refresh nodig
 
-Release Notes Generator
-| Bereik | Omschrijving | Aanpassing | Versie | Jira/ZD |
-|--------|--------------|------------|--------|---------|
-| Client | Bug | Query optimalisatie | 8.0.2 | WISENL-1234 / ZD 1234 |
+**Setup Nodig**
+- Shared Data Store moet aan staan
+- Minimaal 1 bestand nodig om te werken
+- Setup commando verplicht
+- Specifieke bestanden nodig: WiseDataBrain, Begrippenlijst, etc.
 
-**Ondersteunde Wise Componenten**
+**Database Regels**
+- Alleen zoeken, niet wijzigen of verwijderen
+- Maximaal 2 zoekopdrachten per keer
+- Verzint geen gegevens
+- Bij ontbrekende info: meldt dat het ontbreekt
+
+**Wise Test Servers**
 -------------------------------------------------------------------
 
-Database Tabellen (1267)
-- ACTOR
-- ACTOR_ZOEK
-- ACTOR_AUTH_MIDDEL
-- ROL_ABONNEMENT
-- [En 1263 andere tabellen...]
+**Huidige Versies**
+- **Live:** 8.0.2 
+- **Test:** 8.0.3 en 8.0.4
 
-Sectoren & Systemen
-- **Primair:** Openbare bibliotheken (BIEB)
-- **Extended:** schoolWise, educatWise, mediatheekWise, ticketWise
-- **Landen:** Nederland, België (Vlaanderen)
-- **Netwerken:** NBC+, NBD Biblion, Wise Community
+**Test Servers**
 
-Test Servers (25)
-OW TEST 01-25 | CultuurConnect, Probiblio, BiSC, Rotterdam, OBGZ, etc.
-Versies: 8.0.2 (Productie) 8.0.3 & 8.0.4 (development)
+| Server | Organisatie | Versie |
+|--------|-------------|--------|
+| OW TEST 01-03 | CultuurConnect | 8.0.2/8.0.2/8.0.3 |
+| OW TEST 04-06 | Probiblio | 8.0.2/8.0.2/8.0.3 |
+| OW TEST 07-09 | Midden-Zuid (BiSC) | 8.0.2/8.0.2/8.0.3 |
+| OW TEST 10-12 | Rijnbrink | 8.0.2/8.0.2/8.0.3 |
+| OW TEST 13-15 | Rotterdam | 8.0.2/8.0.2/8.0.3 |
+| OW TEST 16-18 | OBGZ | 8.0.2/8.0.2/8.0.3 |
+| OW TEST 19 | FERS | 8.0.2 |
+| OW TEST 20 | Almere/Flevomeer | 8.0.2 |
+| OW TEST 21 | Drenthe | 8.0.2 |
+| OW TEST 22 | Midden-brabant | 8.0.0 |
+| OW TEST 23 | DOK | 8.0.2 |
+| OW TEST 24 | Nieuwegein | 8.0.2 |
+| OW TEST 25 | Bonaire | 8.0.2 |
 
-**Beperkingen**
--------------------------------------------------------------------
-
-Geen Internet Toegang
-- **Workstacks beperking** - Alle kennis gaat via Shared Data Store.
-- **Performance impact** - Volle datastore = langzamere responses & geen accurate antwoorden
-
-Vereiste Documenten
-WiseDataBrain - Database structuur
-Begrippenlijst - 165 terminologieën  
-Data model - Database relaties
-Setup/Wise Data Setup - Implementatie
-BigParts - Wise onderdelen
-
-Ontbrekende Tabel Structuren
-Voor [TABELNAAM] ontbreekt volledige structuur.
-Deel deze tabel uit het online Wise data model.
-Workstacks heeft geen internettoegang.
-
-Huidige Kennisbank Status
-
-Database Tabellen: 1267/1267 
-Begrippen & Termen: 165 
-Templates: Jira, Release Notes 
-Test Servers: OW TEST 01-25 
-
-**Best Practices**
--------------------------------------------------------------------
-
-Effectief:
-- "Maak query voor ACTOR_ZOEK om actoren te zoeken op naam"
-- "Kijk in WiseDataBrain voor FINANCIELE_MUTATIE structuur"  
-- "Genereer Jira ticket voor login probleem op OW TEST 01"
-
-Vermijd
-- "Zoek een actor" (te vaag)
-- Queries zonder tabel specificatie
-- Vragen zonder context over Wise versie/server
-
-Optimale Workflow
-1. Upload relevante documenten naar Shared Data Store
-2. Beschrijf probleem + context (server, versie, actor_id)
-3. Voeg screenshots toe (max 3)
-4. Geef testresultaten door
-5. Vraag specifieke output (query/jira/release notes)
-
-**Troubleshooting**
--------------------------------------------------------------------
-
-Setup Problemen
-SETUP MISLUKT - SHARED DATA STORE VEREIST
-→ Oplossing: Nieuw gesprek + status en dan Shared Data Store aan
-
-Performance Issues  
-Langzame responses? 
-→ Shared Data Store vol met irrelevante bestanden
-→ Momenteel geen cleanup optie beschikbaar
-
-Onvolledige Antwoorden
-→ Upload specifieke tabel structuren
-→ Verwijs naar concrete document namen
-→ Geef meer context over Wise versie/omgeving
-
-**FAQ - Veelgestelde Vragen**
--------------------------------------------------------------------
-
-**Basis Gebruik**
-
-**Q: Hoe start men de Wise Assistant op?**
-
-A: 
-1. Zet de **Shared Data Store** aan (schuifje onder tekstbalk)
-2. Typ Setup Wise Data om de database te initialiseren
-3. Wacht tot "SETUP VOLTOOID" verschijnt
-
-**Q: Wat gebeurt er als de setup mislukt?**
-
-A: Er verschijnt "SETUP MISLUKT - SHARED DATA STORE VEREIST". Start een nieuw gesprek en probeer opnieuw met de Shared Data Store aan.
-
-**Q: Hoe controleert men de huidige status?**
-
-A: Typ status voor een overzicht van geladen tabellen, begrippen en laatste updates.
-
-**Database & Queries**
-
-**Q: Welke tabellen kent de assistant?**
-
-A: Alle 1267 tabellen uit Wise 8.0.1, zoals ACTOR, ACTOR_ZOEK, ROL_ABONNEMENT, ACTOR_AUTH_MIDDEL, etc.
-
-**Q: Wat als een tabel niet volledig gedocumenteerd is?**
-
-A: De assistant geeft aan welke tabellen ontbreken en vraagt om deze te delen vanuit het Wise data model.
-
-**Q: Waarom zijn de queries zo kort?**
-
-A: De assistant maakt bewust korte queries met * zodat alle kolommen zichtbaar zijn.
-
-**Workstacks Beperkingen**
-
-**Q: Heeft de assistant toegang tot het internet?**
-
-A: **NEE** - Workstacks heeft momenteel geen internettoegang. Alle informatie gaat nu via de Shared Data Store.
-
-**Q: Hoe krijgt men de meest accurate informatie?**
-
-A: Deel zoveel mogelijk relevante bestanden en tabel structuren in je vraag aan de assistent.
-
-**Q: Wat als specifieke Wise documentatie ontbreekt?**
-
-A: De assistant geeft aan welke documenten/tabellen nodig zijn en vraagt je om deze te delen uit het online Wise data model. (kopieer het hele tabel vanaf de titel tot "Back to index" 
-
-**Templates & Output**
-
-**Q: Welke templates kan de assistant maken?**
-
-A: Jira tickets (Engels), Release notes (Nederlandse tabel), Status updates van de kennisbank
-
-**Q: Waarom stelt de assistant soms extra vragen voor Jira templates?**
-
-A: Alleen bekende informatie wordt ingevuld. Voor ontbrekende details worden eerst vragen gesteld.
+**Totaal:** 25 testservers voor Nederlandse en Belgische bibliotheken
 
 ---
 
-Snelle Commands
+**Hoe gebruiken:**
+- Zet Shared Data Store aan
+- Type "start" 
+- Wacht op "Setup Voltooid"
+- Begin met vragen stellen
 
-| Command | Functie |
-|---------|---------|
-| status | Kennisbank overzicht |
-| Setup Wise Data | Database initialisatie |
-| Document naam | Specifieke focus (bijv. "WiseDataBrain") |
-
----
-
-**Laatste Update:** 03-10-2025  
-**Versie:** Wise 8.0.2 (Stabiel) | 8.0.3-8.0.4 (Development)  
-**Platform:** AI Workstacks met Shared Data Store ondersteuning
+**Laatste Update:** 03-10-2025
