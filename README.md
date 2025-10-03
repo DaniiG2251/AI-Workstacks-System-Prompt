@@ -29,12 +29,12 @@ Jira Ticket Templates
 - **Engels format** voor internationale stappen
 - **Complete bug rapportage** structuur
 - **Impact assessment** (Low/Medium/High)
-- **Automatische versie detectie** (8.0.1 prod / 8.0.2-8.0.3 dev)
+- **Automatische versie detectie** (8.0.2 prod / 8.0.3-8.0.4 dev)
 
 Release Notes Generator
 | Bereik | Omschrijving | Aanpassing | Versie | Jira/ZD |
 |--------|--------------|------------|--------|---------|
-| Client | Bug | Query optimalisatie | 8.0.1 | WISENL-1234 / ZD 1234 |
+| Client | Bug | Query optimalisatie | 8.0.2 | WISENL-1234 / ZD 1234 |
 
 **Ondersteunde Wise Componenten**
 -------------------------------------------------------------------
@@ -54,7 +54,7 @@ Sectoren & Systemen
 
 Test Servers (25)
 OW TEST 01-25 | CultuurConnect, Probiblio, BiSC, Rotterdam, OBGZ, etc.
-Versies: 8.0.0, 8.0.1, 8.0.2, 8.0.3 (development)
+Versies: 8.0.2 (Productie) 8.0.3 & 8.0.4 (development)
 
 **Beperkingen**
 -------------------------------------------------------------------
@@ -189,6 +189,6 @@ Snelle Commands
 
 ---
 
-**Laatste Update:** 03-09-2025  
-**Versie:** Wise 8.0.1 (Stabiel) | 8.0.2-8.0.3 (Development)  
+**Laatste Update:** 03-10-2025  
+**Versie:** Wise 8.0.2 (Stabiel) | 8.0.3-8.0.4 (Development)  
 **Platform:** AI Workstacks met Shared Data Store ondersteuning
